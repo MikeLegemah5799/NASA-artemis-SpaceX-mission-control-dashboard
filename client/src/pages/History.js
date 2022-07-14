@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { Appear, Table, Paragraph } from "arwes";
 
 const History = props => {
