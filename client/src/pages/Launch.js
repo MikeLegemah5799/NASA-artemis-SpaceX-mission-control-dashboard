@@ -1,4 +1,4 @@
-import React, { Component, useMemo } from "react";
+import React, { useMemo } from "react";
 import { Appear, Button, Loading, Paragraph } from "arwes";
 import Clickable from "../components/Clickable";
 
