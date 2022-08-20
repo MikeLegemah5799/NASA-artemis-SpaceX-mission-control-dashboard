@@ -1,3 +1,6 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "marquee.widgets.npm-stats.packageNames": [
+        "nasa-artemis-mission-control-dashboard"
+    ]
 }
