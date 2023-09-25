@@ -18,7 +18,7 @@ const styles = () => ({
 });
 
 const Upcoming = props => {
-  const { 
+  const {
     entered,
     launches,
     classes,
