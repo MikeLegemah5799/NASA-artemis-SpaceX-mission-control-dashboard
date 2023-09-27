@@ -13,7 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "supertest": "^6.3.3"
   },
   "dependencies": {
     "cors": "^2.8.5",
