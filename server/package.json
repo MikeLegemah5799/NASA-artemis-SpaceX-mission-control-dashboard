@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "test-watch": "jest --watch",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^2.0.19",
