@@ -24,3 +24,4 @@ jobs:
         uses: supercharge/mongodb-github-action@v1.10.0
       - run: npm install
       - run: npm run build --prefix client
+      - run: npm test
